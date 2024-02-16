@@ -37,12 +37,12 @@ def onglet0():
     st.markdown("<h3 style='text-align: center;'>Ingrédient les plus présents dans les recettes</h3>", unsafe_allow_html=True)
     #url1 = 'https://drive.google.com/uc?export=view&id=1fnXQhT2sBwCdUC9bbqP99gnB7rmhK1UA'
     #st.image(url1)
-    st.image('image2.jpg')
+    st.image('image2.jpeg')
 
     st.markdown("<h3 style='text-align: center;'>Ingrédient les plus présents sans le top 10</h3>", unsafe_allow_html=True)
     #url3 = 'https://drive.google.com/uc?export=view&id=1OUWnfH8u93wA4DqRhB3dHprafZGs33sd'
     #st.image(url3)
-    st.image('image1.jpg')
+    st.image('image1.jpeg')
     
     #ingredient_counts = Counter(df_recettes['Com_ing_str'])
     #wordcloud = WordCloud(width=800, height=400, background_color='white',
