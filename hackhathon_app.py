@@ -189,7 +189,7 @@ def onglet3():
     st.image('projet.jpg', width=900)
     #url5 = 'https://drive.google.com/uc?export=view&id=1Mrjx1I3CQqjSqadEx5r8qamcVBuZLgpx'
     #st.image(url5, width=900)
-    st.image('projet2.jpeg', width=900)
+    st.image('Projet2.jpeg', width=900)
     #url6 = 'https://drive.google.com/uc?export=view&id=15UWYpBxoNc26DsGxeCxP1B_TWPXqRV1f'
     #st.image(url6, width=900)
     st.image("Aujourd'hui.jpeg", width=900)
