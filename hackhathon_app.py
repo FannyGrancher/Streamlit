@@ -181,22 +181,29 @@ def onglet1():
 
 def onglet3():
     st.markdown("<h1 style='text-align: center;'>Accueil</h1>", unsafe_allow_html=True)
-    url = 'https://drive.google.com/uc?export=view&id=1zi-NIwA5H0Y6MhembsA7UTMGX90h2jQn'
-    st.image(url, width=900)
-    url4 = 'https://drive.google.com/uc?export=view&id=17CiRhDR9akT8kTkr8d_tAcbQvavDtQCm'
-    st.image(url4, width=900)
-    url5 = 'https://drive.google.com/uc?export=view&id=1Mrjx1I3CQqjSqadEx5r8qamcVBuZLgpx'
-    st.image(url5, width=900)
-    url6 = 'https://drive.google.com/uc?export=view&id=15UWYpBxoNc26DsGxeCxP1B_TWPXqRV1f'
-    st.image(url6, width=900)
-    url7 = 'https://drive.google.com/uc?export=view&id=1V7MMwhaphXUHZcBnoviVo9vH1q1RqtoM'
-    st.image(url7, width=900)
-    url9 = 'https://drive.google.com/uc?export=view&id=1YBQ62tG4Iu7x-YgMixt88PaDJL2b8y6j'
-    st.image(url9, width=900)
-    url10 = 'https://drive.google.com/uc?export=view&id=1BX7b3Pk1Cb5LoZmTCei0qmvDu6FNsrXC'
-    st.image(url10, width=900)
-    url8 = 'https://drive.google.com/uc?export=view&id=1bKpy0YkFLY-DCuwDZFNBBLmY-8HUtN7C'
-    st.image(url8, width=900)
+    #url = 'https://drive.google.com/uc?export=view&id=1zi-NIwA5H0Y6MhembsA7UTMGX90h2jQn'
+    #st.image(url, width=900)
+    st.image('couverture.jpg', width=900)
+    #url4 = 'https://drive.google.com/uc?export=view&id=17CiRhDR9akT8kTkr8d_tAcbQvavDtQCm'
+    #st.image(url4, width=900)
+    st.image('projet.jpg', width=900)
+    #url5 = 'https://drive.google.com/uc?export=view&id=1Mrjx1I3CQqjSqadEx5r8qamcVBuZLgpx'
+    #st.image(url5, width=900)
+    st.image('projet2.jpeg', width=900)
+    #url6 = 'https://drive.google.com/uc?export=view&id=15UWYpBxoNc26DsGxeCxP1B_TWPXqRV1f'
+    #st.image(url6, width=900)
+    st.image("Aujourd'hui.jpeg", width=900)
+    #url7 = 'https://drive.google.com/uc?export=view&id=1V7MMwhaphXUHZcBnoviVo9vH1q1RqtoM'
+    #st.image(url7, width=900)
+    st.image('Défi.jpeg', width=900)
+    #url9 = 'https://drive.google.com/uc?export=view&id=1YBQ62tG4Iu7x-YgMixt88PaDJL2b8y6j'
+    #st.image(url9, width=900)
+    st.image('citation.jpg', width=900)
+    #url10 = 'https://drive.google.com/uc?export=view&id=1BX7b3Pk1Cb5LoZmTCei0qmvDu6FNsrXC'
+    #st.image(url10, width=900)
+    st.image('Data.jpeg', width=900)
+    #url8 = 'https://drive.google.com/uc?export=view&id=1bKpy0YkFLY-DCuwDZFNBBLmY-8HUtN7C'
+    #st.image(url8, width=900)
     #st.write(df_recettes)
 
 def main():
